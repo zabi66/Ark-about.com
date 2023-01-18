@@ -1,0 +1,214 @@
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 110px;
+    color: #217C7E;
+    text-align: center;
+    -webkit-animation: h1 20s ease-in-out infinite alternate;
+    -moz-animation: h1 20s ease-in-out infinite alternate;
+    animation: h1 20s ease-in-out infinite alternate;
+    position: relative;
+    top: 410px;
+}
+h2{
+    font-size: 110px;
+    color: #19afe7;
+    text-align: center;
+    -webkit-animation: h1 20s ease-in-out infinite alternate;
+    -moz-animation: h1 20s ease-in-out infinite alternate;
+    animation: h1 20s ease-in-out infinite alternate;
+    position: relative;
+    top: 410px;
+}
+p{
+    font-size: 110px;
+    color: #19afe7;
+    text-align: center;
+    -webkit-animation: h1 20s ease-in-out infinite alternate;
+    -moz-animation: h1 20s ease-in-out infinite alternate;
+    animation: h1 20s ease-in-out infinite alternate;
+    position: relative;
+    top: 410px;
+}
+h5{
+    font-size: 110px;
+    color: #19afe7;
+    text-align: center;
+    -webkit-animation: h1 20s ease-in-out infinite alternate;
+    -moz-animation: h1 20s ease-in-out infinite alternate;
+    animation: h1 20s ease-in-out infinite alternate;
+    position: relative;
+    top: 410px;
+}
+@-webkit-keyframes h1{
+  from {
+        text-shadow: 0 0 5px #01b8e7, 0 0 10px #fff, 0 0 15px #0080be, 0 0 20px #012644, 0 0 25px #024c7b, 0 0 30px #01477b, 0 0 35px #202124;
+      }
+    to {
+      text-shadow: 0 0 10px #ffffff, 0 0 15px #d8535d, 0 0 20px #c7272c, 0 0 25px #610c11, 0 0 30px #90121b, 0 0 35px #cb212c, 0 0 40px #f8334a;
+ }
+  }
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100vh;
+    animation: animate 40s ease-in-out infinite;
+    background-size: cover;
+}
+@keyframes animate{
+    0%, 100%{
+        background-image: url(https://i.ibb.co/GvQvhn8/240-F-116888225-9-Wh82kih-ECBsbau4u-CHwdrz-O09h-Xa3z-Z.jpg);
+        
+    }
+    50%{
+        background-image: url(https://i.ibb.co/5FpRzsN/240-F-116888488-occ-XW9-Yr2u-D7-NDRy0-ULZst-V8-Ptq-VM9-A1.jpg);
+    }
+}
+
+nav{
+
+    width: 100%;
+    height: 0px;
+   background-color: transparent;
+   -webkit-animation: nav 1s ease-in-out infinite alternate;
+    -moz-animation: nav 1s ease-in-out infinite alternate;
+    animation: nav 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes nav{
+    from {
+        text-shadow: 0 0 10px #580c11, 0 0 20px #720d13, 0 0 30px #b52f50, 0 0 40px #1b406a, 0 0 50px #35d5f7, 0 0 60px #8ffcff, 0 0 70px #e60073;
+      }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #6260c0, 0 0 50px #934eb3, 0 0 60px #a949cf, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+body{
+     overflow-x: hidden; 
+    background-color: rgb(12 10 10);
+    content: "\2764";
+     animation: transitionIn 4s;   
+}
+ul li {
+    list-style: none;
+     display: inline-block;
+     line-height: 100px; 
+}
+.contact {
+    position:relative; 
+    left: 1300px; 
+}
+.Home {
+    position:relative; 
+    left: 100px;
+
+}
+.About {
+    position:relative; 
+    left: 200px;
+    color: red;
+
+}
+.Work {
+    position:relative; 
+    left: 300px;
+
+}
+.Goals {
+    position:relative; 
+    left: 400px;
+
+}
+ul li a {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #7ef3ff;
+}
+
+h1{
+    color: #02585a;
+    align-items: center;
+    font-size: 100px;
+    position: relative;
+    top: 300px;
+}
+h2{
+    color: #ffffff;
+    align-items: center;
+    font-size: 60px;
+    position: relative;
+    top: 300px;
+}
+p{
+    color: #7ef3ff;
+    align-items: center;
+    font-size: 31px;
+    position: relative;
+    top: 360px;
+}
+h5{
+    color: #0047ff;
+    align-items: center;
+    font-size: 36px;
+}
+@media screen and (max-width: 800px) {
+    .contact {
+        position: absolute; 
+         left: 1350px; 
+        top: 0px;
+     }
+    ul li a {
+        font-size: 24px;
+    }
+     
+     .container{
+         position: absolute;
+         left: 0;
+         top: 0;
+         width:100%;
+         height: 100vh;
+         animation: animate 40s ease-in-out infinite;
+         background-size: cover;
+     }
+    h1{
+    color: #217C7E;
+    align-items: center;
+    font-size: 90px;
+    position: relative;
+    top: 230px;
+}
+h2{
+    color: #214373;
+    align-items: center;
+    font-size: 50px;
+    position: relative;
+    top: 230px;
+}
+p{
+    color: #00d6ff;
+    align-items: center;
+    font-size: 29px;
+    position: relative;
+    top: 310px;
+}
+h5{
+    color: #29407C;
+    font-size: 35px;
+    position: relative;
+    top: 370px;
+}
+}
